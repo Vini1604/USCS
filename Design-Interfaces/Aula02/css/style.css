@@ -1,22 +1,24 @@
-
-div.box1 {
+div.boxdefault {
     width: 70%;
     margin: auto;
     text-align: justify;
     border-radius: 10px;
     padding: 5px;
+}
+
+div.box1 {
+
     background-color: #b1d5a6;
     color: #1a5900;
 }
+
 div.box2 {
-    width: 70%;
-    margin: auto;
-    text-align: justify;
-    border-radius: 10px;
-    padding: 5px;
+
     background-color: #fdffad;
     color: #9a8b01;
+
 }
+
 span.italico {
     font-style: italic;
 }
@@ -47,4 +49,19 @@ p{
     }
 }
 
+@media print{
+    div.boxdefault{
+        background-color: white;
+        background-image: none;
+        color: black;
+    }
 
+    div.container:after{
+        content: 
+            url(https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://www.uscs.edu.br
+        );
+        position: absolute;
+
+    }
+
+}
