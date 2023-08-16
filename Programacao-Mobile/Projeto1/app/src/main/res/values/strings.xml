@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cálculo de Área e Perímetro</string>
+    <string name="retangulo">Retângulo</string>
+    <string name="circunferencia">Circunferência</string>
+    <string name="largura">Largura</string>
+    <string name="altura">Altura</string>
+    <string name="raio">Raio</string>
+    <string name="area">Área</string>
+    <string name="calcular">Calcular</string>
+    <string name="perimetro">Perímetro</string>
+</resources>
