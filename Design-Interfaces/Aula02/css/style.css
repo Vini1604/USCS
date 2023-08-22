@@ -7,9 +7,9 @@ div.boxdefault {
 }
 
 div.box1 {
-
     background-color: #b1d5a6;
     color: #1a5900;
+    margin-bottom: 15px;
 }
 
 div.box2 {
@@ -56,12 +56,12 @@ p{
         color: black;
     }
 
-    div.container:after{
+    main:after{
         content: 
             url(https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://www.uscs.edu.br
         );
         position: absolute;
-
+        right: 0;
     }
 
 }
